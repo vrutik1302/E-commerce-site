@@ -63,7 +63,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        <p>
+          &copy; Copyright © 2023 Concettolabs Pvt. Ltd.. All rights reserved.
+        </p>
       </div>
     </footer>
   );
