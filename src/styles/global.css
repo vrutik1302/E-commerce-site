@@ -1,0 +1,224 @@
+/* global.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #fff; /* Set background color to white */
+}
+
+.header {
+  background-color: #fff; /* Set header background color to white */
+  color: #333; /* Set header text color to dark blue */
+  padding: 10px 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+}
+
+.left a {
+  color: #333; /* Set link color to dark blue */
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.left a:hover {
+  color: #87ceeb; /* Change link color on hover to light blue */
+  background-color: #fff; /* Change background color on hover to white */
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart img {
+  width: 30px;
+  height: 30px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -7px;
+  right: 5px;
+  background-color: #5c96ae; /* Set cart count background color to light blue */
+  color: #fff; /* Set cart count text color to white */
+  border-radius: 50%;
+  padding: 0px;
+  font-size: 12px;
+}
+
+/* Add this to your global.css or create a separate stylesheet for ProductList component */
+
+.product-list {
+  margin-top: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  width: 200px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #ffd700;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #ffc107; /* Darker yellow on hover */
+}
+
+/* Add these styles to your global.css file or equivalent */
+.testimonial-container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-text {
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-style: italic;
+}
+
+.testimonial-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.testimonial-controls button {
+  padding: 10px;
+  background-color: #87ceeb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial-controls button:hover {
+  background-color: #4682b4;
+}
+
+/* Add this to your global.css or create a separate stylesheet for Footer component */
+
+.footer {
+  background-color: #fff;
+  /* color: #fff; */
+  padding: 20px;
+}
+
+.faq-container {
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accordion-section {
+  width: 100%;
+  border-bottom: 1px solid #b9b8b8;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  width: 80%; /* Adjust the width as needed */
+  padding: 10px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.plus::before {
+  content: "+";
+}
+
+.minus::before {
+  content: "-";
+}
+/* Add this new style for the copyright section */
+.copyright {
+  margin-top: 20px;
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 10px;
+  text-align: center;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
